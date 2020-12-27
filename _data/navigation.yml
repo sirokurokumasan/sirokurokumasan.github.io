@@ -2,5 +2,7 @@
   link: /
 - name: 私について
   link: /about.html
-- name: ブログ
+- name: ブログ一覧
   link: /blog.html
+- name: タグ一覧
+  link: /staff.html
