@@ -1,7 +1,7 @@
 ---
 layout: default
-title: About
 ---
-# About page
+<h1>{{ page.title }}</h1>
+<p>{{ page.date | date_to_string }} - {{ page.author }}</p>
 
-This page tells you a little bit about me.
+{{ content }}
