@@ -1,4 +1,6 @@
-- name: Home
+- name: ホーム
   link: /
-- name: About
+- name: 私について
   link: /about.html
+- name: ブログ
+  link: /blog.html
