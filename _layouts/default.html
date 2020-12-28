@@ -8,11 +8,11 @@
 </head>
 <body>
 <header>
-  <a href class="headline"><img src="mono/images/top.svg">ナプーのブログ</a>
+  <h1><a href class="headline">ナプーのブログ</a></h1>
 </header>
- 
 <div class="container">
   <main class="main">
+    <h2>{{ page.title }}</h2>
     {% include navigation.html %}
     {{ content }}
   </main>
