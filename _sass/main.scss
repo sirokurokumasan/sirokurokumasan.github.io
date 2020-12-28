@@ -10,7 +10,7 @@ a.no-color-change:link,
 a.no-color-change:visited,
 a.no-color-change:hover,
 a.no-color-change:active {
-  color: black;
+  color: gray;
 }
 
 h2:first-letter {font-size: 1.5em;}
@@ -72,7 +72,7 @@ footer {
 }
 
 #gnav{
-background-color: gray;
+background-color: #afca8b;
 }
 #gnav ul li{
 display: inline;
