@@ -6,6 +6,4 @@ title: ナプーのブログ
 ブログの更新など、運営が楽になったので、色々やってみたいと思っています！
 
 ↓これはScratchで作った時計です。時計があると雰囲気が変わりますよね。
-<a>
-<iframe src="https://turbowarp.org/434731718/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen?hqpen?autoplay></iframe>
-</a>
+<iframe src="https://turbowarp.org/434731718/embed?hqpen?autoplay" allowtransparency="true" width="485" height="402"></iframe>
