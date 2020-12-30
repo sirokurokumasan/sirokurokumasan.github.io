@@ -65,18 +65,18 @@ footer {
 .sub {
   background: #cbdea6;
   width: 20%;
-  &__item {
-    margin-bottom: 20px;
-  &__item--fixed {
-    border: 2px solid;
-    border-color: #c59200;
-    background: #e6d2a3;
-    position: sticky;
-    margin-bottom: 0;
-    top: 10px;
-    z-index: 1;
-    }
-  }
+}
+.sub__item {
+  margin-bottom: 20px;
+}
+  .sub__item--fixed {
+  border: 2px solid;
+  border-color: #c59200;
+  background: #e6d2a3;
+  position: sticky;
+  margin-bottom: 0;
+  top: 10px;
+  z-index: 1;
 }
 .btn {
   display: inline-block;
