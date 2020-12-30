@@ -4,9 +4,7 @@ title: 私について
 ---
 いわゆる「about」のページです。
 
-<div style ="width: 50%; margin-left: auto; margin-right: auto;">
-<img src="/assets/sitokuma.png" width="50%" height="50%">
-</div>
+<img src="/assets/sitokuma.png">
 
 プロフィール:
 
