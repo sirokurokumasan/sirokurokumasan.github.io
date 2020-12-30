@@ -1,7 +1,3 @@
-h1{
-  text-align: center;
-}
-
 .current {
   color: green;
 }
@@ -17,12 +13,17 @@ a.no-color-change:active {
   color: gray;
 }
 
-h2:first-letter {font-size: 1.5em;}
+h1{
+  text-align: center;
+}
+
+
 h2 {
   line-height: 1.4;
   color: #cd733e;
   border-top: dotted 3px #cd733e;
   border-bottom: dotted 3px #cd733e;
+  &:first-letter {font-size: 1.5em;}
 }
 
 h3 {
@@ -35,9 +36,9 @@ header {
   width: 1400px;
   padding: 15px 0;
   background:#cad44a;
-}
-header .headline{
-  font-size: 32px;
+  &.headline{
+    font-size: 32px;
+  }
 
 }
 footer {
