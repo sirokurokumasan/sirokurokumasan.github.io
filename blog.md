@@ -10,7 +10,8 @@ title: ブログの更新履歴
     <li>
       <a href="{{ post.url }}" class="btn">{{ post.title }}
       {{ post.excerpt }}</a>
-***
+      <br>
+      <br>
     </li>
   {% endfor %}
 </ul>
