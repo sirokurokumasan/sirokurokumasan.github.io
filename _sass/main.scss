@@ -185,6 +185,7 @@ html, body {
     box-shadow: 0 2px 5px rgba(0,0,0,0.26);
     animation: not-checked-anim .2s both;
     transition: .2s;
+    visibility:hidden;
 }
 #menu-toggle:checked + #trigger + #burger + #menu {
     animation: checked-anim 1s ease both;
@@ -194,4 +195,5 @@ html, body {
 }
 [type="checkbox"]:not(:checked), [type="checkbox"]:checked {
     display: none;
+    visibility:visible;
 }
