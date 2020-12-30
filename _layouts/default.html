@@ -8,18 +8,13 @@
 </head>
 <body>
 <header>
-  <input type="checkbox" id="menu-toggle"/>
-  <label id="trigger" for="menu-toggle"></label>
-  <label id="burger" for="menu-toggle"></label>
-  <ul id="menu">
     <img src="https://sirokurokumasan.github.io/program/mono/images/myicon.png" width="380" height="380">
     <p>ナプーです。</p>
     <p>クリエーターになりたい。</p>
     <p>息抜きにでものぞきに来てください。</p>
     <p><a href="https://scratch.mit.edu/users/sirokurokumasan/" class="btn">scratchのアカウント</a></p>
     <p><a href="https://github.com/sirokurokumasan" class="btn">GitHubのアカウント</a></p>
-  </nav>
-  </ul>
+
 
   <h1><a href class="headline">ナプーのブログ</a></h1>
   <nav id="gnav">
@@ -34,6 +29,103 @@
     {{ content }}
   </main>
 
+  <nav id="nav">
+  <ul>
+    <li><a href="#">リンク1</a></li>
+    <li><a href="#">リンク2</a></li>
+    <li><a href="#">リンク3</a></li>
+  </ul>
+</nav>
+<div id="hamburger">
+  <span class="inner_line" id="line1"></span>
+  <span class="inner_line" id="line2"></span>
+  <span class="inner_line" id="line3"></span>
+</div>
+
+<style>
+body{
+   background-color: rgba(0,0,0,0.2);
+ }
+#nav{
+  position: absolute;
+  height: 100vh;
+  width: 40%;
+  left: -40%;
+  top: 0;
+  background: #ffffff;
+  transition: .7s;
+}
+#nav ul{
+  padding-top: 80px;
+}
+#nav ul li{
+  list-style-type: none;
+}
+#hamburger {
+  display: none;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  width: 50px;
+  height: 44px;
+  transition: 1s;
+}
+.inner_line {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #000000;
+  transition: 1s;
+  border-radius: 4px;
+}
+#line1 {
+  top: 0;
+}
+#line2 {
+  top: 20px;
+}
+#line3 {
+  bottom: 0px;
+}
+
+.in{
+  transform: translateX(100%);
+}
+.line_1,.line_2,.line_3{
+  background: #000000;
+}
+.line_1 {
+  transform: translateY(20px) rotate(-45deg);
+  top: 0;
+}
+.line_2 {
+  opacity: 0;
+}
+.line_3 {
+  transform: translateY(-20px) rotate(45deg);
+  bottom: 0;
+}
+
+@media (max-width: 1200px) {
+  #hamburger {
+    display: block;
+  }
+}
+</style>
+
+<script>
+  function hamburger(){
+    document.getElementById('line1').classList.toggle('line_1');
+    document.getElementById('line2').classList.toggle('line_2');
+    document.getElementById('line3').classList.toggle('line_3');
+    document.getElementById('nav').classList.toggle('in');
+  };
+  document.getElementById('hamburger').addEventListener('click',function(){
+    hamburger();
+  });
+</script>
 </div>
 
 <footer>
