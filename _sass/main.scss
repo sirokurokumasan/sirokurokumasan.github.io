@@ -59,8 +59,24 @@ footer {
 .main {
   background: #eef1d9;
   display: block;
-  width: 100%;
+  width: 80%;
   margin-right: 20px;
+}
+.sub {
+  background: #cbdea6;
+  width: 20%;
+  &__item {
+    margin-bottom: 20px;
+  &__item--fixed {
+    border: 2px solid;
+    border-color: #c59200;
+    background: #e6d2a3;
+    position: sticky;
+    margin-bottom: 0;
+    top: 10px;
+    z-index: 1;
+    }
+  }
 }
 .btn {
   display: inline-block;
