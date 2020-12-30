@@ -9,7 +9,7 @@ title: タグまとめ
     <li>
       <a href="{{ author.url }}" class="btn">{{ author.name }}
       {{ author.position }}
-      <p>{{ author.content | markdownify }}</p></a><br><br>
+      {{ author.content | markdownify }}</a><br><br>
     </li>
   {% endfor %}
 </ul>
