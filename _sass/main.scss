@@ -1,5 +1,5 @@
 .current {
-  color: green;
+  color: darkorange;
 }
 
 a {
@@ -65,7 +65,7 @@ footer {
   margin-right: 20px;
 }
 .sub {
-  background: #cbdea6;
+  background: #dea;
   width: 20%;
 }
 .sub__item {
@@ -73,8 +73,8 @@ footer {
 }
 .sub__item--fixed {
   border: 2px solid;
-  border-color: #c59200;
-  background: #e6d2a3;
+  border-color: #cba;
+  background: #ba9;
   position: sticky;
   margin-bottom: 0;
   top: 10px;
@@ -85,7 +85,7 @@ footer {
   padding: 0.5em 1em;
   text-decoration: none;
   background: #f7f7f7;
-  border-left: solid 6px #c59200;
+  border-left: solid 6px darkorange;
   font-weight: bold;
   box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.29);
 }
