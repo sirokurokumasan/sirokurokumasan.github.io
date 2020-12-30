@@ -3,7 +3,7 @@ layout: default
 title: 私について
 ---
 いわゆる「about」のページです。
-
+<img src="/assets/sitokuma.png" width="70%" height="70%">
 プロフィール:
 
 名前はナプー。誕生日は9月25日。オバケのかわいい女の子。
@@ -15,5 +15,8 @@ title: 私について
 
 連絡:
 
-<a href="https://scratch.mit.edu/users/sirokurokumasan/" class="btn">Scratchのアカウント</a>
+<a href="https://scratch.mit.edu/users/sirokurokumasan/" class="btn">Scratchのコメント欄</a>
 ※Scratchのアカウント(無料)が必要です。
+
+<a href="https://github.com/sirokurokumasan/sirokurokumasan.github.io/issues/2" class="btn">GitHubのコメント欄</a>
+※GitHubのアカウント(こっちも無料)が必要です。
