@@ -1,10 +1,8 @@
-.current {
-  color: chocolate;
-}
+.current {color: chocolate;}
 
-a {
-  text-decoration: none;
-}
+a {text-decoration: none;}
+
+ul {list-style: none;}
 
 a.no-color-change:link,
 a.no-color-change:visited,
@@ -15,16 +13,16 @@ a.no-color-change:active {
 //このサイトではフッターにしかh1を使わない主義
 h1{
   text-align: center;
-  font-size: 3vm;
-  border-top: ridge 3px #fff;
-  border-bottom: ridge 3px #fff;
+  font-size: 7vm;
+  border-top: ridge 5px #999;
+  border-bottom: ridge 5px #999;
 }
 //タイトル
 h2 {
   line-height: 1.4;
   color: #cd733e;
-  border-top: double 3px #cd733e;
-  border-bottom: double 3px #cd733e;
+  border-top: solid 3px #cd733e;
+  border-bottom: solid 3px #cd733e;
   &:first-letter {font-size: 1.5em;}
 }
 //小見出し
@@ -67,7 +65,7 @@ footer {
   margin-right: 20px;
 }
 .sub {
-  background: #dea;
+  background: #bed;
   width: 20%;
 }
 .sub__item {
@@ -76,7 +74,7 @@ footer {
 .sub__item--fixed {
   border: 2px solid;
   border-color: #cba;
-  background: #ba9;
+  background: #bad;
   position: sticky;
   margin-bottom: 0;
   top: 10px;
