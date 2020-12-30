@@ -5,8 +5,8 @@ title: Latest Posts
 <ul>
   {% for post in site.posts %}
     <li>
-      <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-      {{ post.excerpt }}
+      <a href="{{ post.url }}" class="btn">{{ post.title }}
+      {{ post.excerpt }}</a>
     </li>
   {% endfor %}
 </ul>
