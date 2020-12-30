@@ -3,7 +3,8 @@ layout: default
 title: 私について
 ---
 いわゆる「about」のページです。
-<img src="/assets/sitokuma.png" width="70%" height="70%">
+<img src="/assets/sitokuma.png" width="30%" height="30%">
+
 プロフィール:
 
 名前はナプー。誕生日は9月25日。オバケのかわいい女の子。
