@@ -6,7 +6,7 @@ layout: default
 
 <h2>ブログ更新履歴</h2>
 
-<ul class="btn">
+<ul>
   {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
   {% for post in filtered_posts %}
     <li><a href="{{ post.url }}" class = "btn">{{ post.title }}</a></li>
