@@ -2,14 +2,12 @@
 layout: default
 title: タグまとめ
 ---
-<h1>タグまとめ</h1>
-
-<ul>
+<ul style="list-style: none;">
   {% for author in site.authors %}
     <li>
-      <h2><a href="{{ author.url }}">{{ author.name }}</a></h2>
-      <h3>{{ author.position }}</h3>
-      <p>{{ author.content | markdownify }}</p>
+      <a href="{{ author.url }}" class="btn">{{ author.name }}</a>
+      {{ author.position }}
+      <p>{{ author.content | markdownify }}</p><br><br>
     </li>
   {% endfor %}
 </ul>
