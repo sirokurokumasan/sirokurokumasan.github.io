@@ -1,5 +1,5 @@
 .current {
-  color: darkorange;
+  color: chocolate;
 }
 
 a {
@@ -12,26 +12,28 @@ a.no-color-change:hover,
 a.no-color-change:active {
   color: gray;
 }
-
+//このサイトではフッターにしかh1を使わない主義
 h1{
   text-align: center;
+  font-size: 3vm;
+  border-top: ridge 3px #fff;
+  border-bottom: ridge 3px #fff;
 }
-
-
+//タイトル
 h2 {
   line-height: 1.4;
   color: #cd733e;
-  border-top: dotted 3px #cd733e;
-  border-bottom: dotted 3px #cd733e;
+  border-top: double 3px #cd733e;
+  border-bottom: double 3px #cd733e;
   &:first-letter {font-size: 1.5em;}
 }
-
+//小見出し
 h3 {
   background: #e5ad6e;
   padding: 0.5em;
 }
 
-
+//ここからレイアウト
 header {
   width: 100%;
   padding: 15px 0;
@@ -80,6 +82,7 @@ footer {
   top: 10px;
   z-index: 1;
 }
+//ボタン
 .btn {
   display: inline-block;
   padding: 0.5em 1em;
