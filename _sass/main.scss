@@ -14,8 +14,8 @@ a.no-color-change:active {
 h1{
   text-align: center;
   font-size: 7vm;
-  border-top: ridge 5px #999;
-  border-bottom: ridge 5px #999;
+  border-top: outset 5px #999;
+  border-bottom: outset 5px #999;
 }
 //タイトル
 h2 {
@@ -65,7 +65,7 @@ footer {
   margin-right: 20px;
 }
 .sub {
-  background: #bed;
+  background: #ded;
   width: 20%;
 }
 .sub__item {
@@ -73,8 +73,8 @@ footer {
 }
 .sub__item--fixed {
   border: 2px solid;
-  border-color: #cba;
-  background: #bad;
+  border-color: #555;
+  background: #bdd;
   position: sticky;
   margin-bottom: 0;
   top: 10px;
