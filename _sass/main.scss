@@ -46,20 +46,20 @@ footer {
   height: 50px; 
   padding: 50px 0;
   background:#cad44a;
+  &-text {
+    color: #fff;
+  }
 }
-.footer-text {
-  color: #fff;
-}
-
+.
 .container {
-  width: 1400px;
+  width: 100%;
   display: -webkit-flex;
   display: flex;
 }
 .main {
   background: #eef1d9;
   display: block;
-  width: 1000px;
+  width: 100%;
   margin-right: 20px;
 }
 .btn {
@@ -77,10 +77,8 @@ footer {
 }
 
 #gnav{
-background-color: #afca8b;
+  background-color: #afca8b;
+  & ul li{
+    display: inline;
+    }
 }
-#gnav ul li{
-display: inline;
-
-}
-
