@@ -3,7 +3,10 @@ layout: default
 title: 私について
 ---
 いわゆる「about」のページです。
-<img src="/assets/sitokuma.png" width="30%" height="30%">
+
+<div style ="width: 50%; margin-left: auto; margin-right: auto;">
+<img src="/assets/sitokuma.png" width="50%" height="50%">
+</div>
 
 プロフィール:
 
