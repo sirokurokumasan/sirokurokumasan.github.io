@@ -9,9 +9,8 @@ title: ブログの更新履歴
   {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}" class="btn">{{ post.title }}
-      {{ post.excerpt }}</a>
-      <br>
-      <br>
+      {{ post.excerpt }}
+      </a><br>
     </li>
   {% endfor %}
 </ul>
