@@ -35,7 +35,7 @@ h3 {
 header {
   width: 100%;
   padding: 15px 0;
-  background:#ccc;
+  background:#895;
   &.headline{
     font-size: 5vw;
   &-text {
@@ -48,7 +48,7 @@ footer {
   width: 100%;
   height: 50px; 
   padding: 50px 0;
-  background:#ccc;
+  background:#895;
   &-text {
     color: #000;
   }
@@ -65,7 +65,7 @@ footer {
   margin-right: 20px;
 }
 .sub {
-  background: #ffc3f5;
+  background: #de9;
   width: 20%;
 }
 .sub__item {
@@ -73,7 +73,7 @@ footer {
 .sub__item--fixed {
   border: 2px solid;
   border-color: #878;
-  background: #ffe0fb;
+  background: #cca;
   position: sticky;
   margin-bottom: 0;
   top: 10px;
