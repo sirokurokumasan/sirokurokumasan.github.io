@@ -7,6 +7,10 @@ title: ナプーのブログ
 
 上のバー(ホームとかタグとか書いているやつ)から内容を見ることができます。色々飛んでみてください。
 
+#### ↓ゲームの配布をしています。ぜひ見てください！
+
+<a href="https://sirokurokumasan.github.io/2020/12/31/シューティングゲーム作りました.html" class="btn">シューティングゲーム</a>
+
 ↓これはScratchで作った時計です。時計があると雰囲気が変わりますよね。
 <iframe src="https://turbowarp.org/434731718/embed?autoplay" allowtransparency="true" width="485" height="402"></iframe>
 
