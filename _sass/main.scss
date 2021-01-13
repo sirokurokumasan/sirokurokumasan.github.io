@@ -34,11 +34,7 @@ h3 {
 
 //ここからレイアウト
 header {
-  width: 100%;
-  padding: 15px 0;
-  background:#8a4;
-  position: sticky;
-  top: 0;
+
 }
 
 footer {
@@ -49,14 +45,17 @@ footer {
 }
 .container {
   width: 100%;
-  display: -webkit-flex;
-  display: flex;
-}
-.main {
   background: #eef1d9;
   display: block;
   width: 80%;
   margin-right: 20px;
+}
+.main {
+  width: 100%;
+  padding: 15px 0;
+  background:#8a4;
+  position: sticky;
+  top: 0;
 }
 .sub {
   background: #de9;
