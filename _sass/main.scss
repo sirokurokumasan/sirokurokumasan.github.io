@@ -4,12 +4,15 @@ a {text-decoration: none;}
 
 ul {list-style: none;}
 
-a.no-color-change:link,
-a.no-color-change:visited,
-a.no-color-change:hover,
-a.no-color-change:active {
-  color: gray;
+a{
+  color:#0366D6;
+  text-decoration:none;
 }
+a:hover{
+  color:darkred;
+  text-decoration:underline;
+}
+
 //このサイトではフッターにしかh1を使わない主義
 h1{
   text-align: center;
@@ -36,6 +39,7 @@ header {
   width: 100%;
   padding: 15px 0;
   background:#8a4;
+  position: sticky;
 }
 
 footer {
@@ -65,7 +69,6 @@ footer {
   border: 2px solid;
   border-color: #878;
   background: #cca;
-  position: sticky;
   margin-bottom: 0;
   top: 10px;
   z-index: 1;
