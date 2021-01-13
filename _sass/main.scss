@@ -1,7 +1,5 @@
 .current {color: chocolate;}
 
-a {text-decoration: none;}
-
 ul {list-style: none;}
 
 a{
@@ -63,17 +61,13 @@ footer {
 .sub {
   background: #de9;
   width: 20%;
-}
-.sub__item {
-}
-.sub__item--fixed {
   border: 2px solid;
   border-color: #878;
-  background: #cca;
   margin-bottom: 0;
   top: 10px;
   z-index: 1;
 }
+
 //ボタン
 .btn {
   display: inline-block;
