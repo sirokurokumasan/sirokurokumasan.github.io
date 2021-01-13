@@ -15,33 +15,32 @@
   <link rel="stylesheet" href="/assets/css/styles.css">
 </head>
 <body>
-<header>
-  <h1><a href="/">ナプー・ラボ</a></h1>
-  <p style="text-align: center;">～多趣味かつ数学好きかつ自称クリエーターが運営するブログ～</p>
-      {% include navigation.html %}
-</header>
+  <main class="main-container">
+  <header class="main-header">
+    <h1><a href="/">ナプー・ラボ</a></h1>
+    <p style="text-align: center;">～多趣味かつ数学好きかつ自称クリエーターが運営するブログ～</p>
+    {% include navigation.html %}
+  </header>
+</main>
 <div class="container">
   <main class="main">
     <h2>{{ page.title }}</h2>
     {{ content }}
   </main>
   <div class="sub">
-    <div class="sub__item"> 
-    </div>
-    <div class="sub__item sub__item--fixed">
-      <p>プロフィール:</p>
-      <p>ナプーです！</p>
-      <p>sirokurokumasanのオリキャラです。</p>
-      <p>プログラミング好きです！</p>
-      <p>少しずつ記事を書くのでたまにのぞきに来てください。</p>
-      <p><a href="https://scratch.mit.edu/users/sirokurokumasan/" class="btn">scratchのアカウント</a></p>
-      <p><a href="https://github.com/sirokurokumasan" class="btn">GitHubのアカウント</a></p>
-    </div>
+    <p>プロフィール:</p>
+    <p>ナプーです！</p>
+    <p>sirokurokumasanのオリキャラです。</p>
+    <p>プログラミング好きです！</p>
+    <p>少しずつ記事を書くのでたまにのぞきに来てください。</p>
+    <p><a href="https://scratch.mit.edu/users/sirokurokumasan/" class="btn">scratchのアカウント</a></p>
+    <p><a href="https://github.com/sirokurokumasan" class="btn">GitHubのアカウント</a></p>
   </div>
 </div>
 
 <footer>
   <p>© sirokurokumasan 2020</p>
+  <p>このブログの著作権はsirokurokumasanにあります。</p>
 </footer>
 </body>
 
