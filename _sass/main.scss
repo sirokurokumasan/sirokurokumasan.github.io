@@ -50,12 +50,16 @@ footer {
   width: 80%;
   margin-right: 20px;
 }
+.main-container * + *{margin-top:20px;}
+.main-header{
+  position:-webkit-sticky;
+  position:sticky;
+  top:0;
+}
 .main {
   width: 100%;
   padding: 15px 0;
   background:#8a4;
-  position: sticky;
-  top: 0;
 }
 .sub {
   background: #de9;
