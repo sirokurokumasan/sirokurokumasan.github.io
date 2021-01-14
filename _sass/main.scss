@@ -15,8 +15,8 @@ a:hover{
 h1{
   text-align: center;
   font-size: 7vm;
-  border-top: outset 5px #999;
-  border-bottom: outset 5px #999;
+  border-top: double 5px #999;
+  border-bottom: double 5px #999;
 }
 //タイトル
 h2 {
@@ -52,7 +52,10 @@ footer {
   background: #eef1d9;
   display: block;
 }
-.main-container * + *{margin-top:20px;}
+.main-container * + *{
+  margin-top:20px;
+  background:#8a4;
+}
 .main-header{
   position:-webkit-sticky;
   position:sticky;
@@ -61,7 +64,6 @@ footer {
 .main {
   width: 100%;
   padding: 15px 0;
-  background:#8a4;
 }
 .article{
   width: 75%;
