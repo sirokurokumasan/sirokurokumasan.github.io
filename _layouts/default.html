@@ -16,16 +16,18 @@
 </head>
 <body>
   <main class="main-container">
-  <header class="main-header">
-    <h1><a href="/">ナプー・ラボ</a></h1>
     <p style="text-align: center;">～多趣味かつ数学好きかつ自称クリエーターが運営するブログ～</p>
-    {% include navigation.html %}
-  </header>
+    <header class="main-header">
+      <h1><a href="/">ナプー・ラボ</a></h1>
+      {% include navigation.html %}
+    </header>
   <div class="container">
-    <h2>{{ page.title }}</h2>
-    {{ content }}
+    <div class="article">
+      <h2>{{ page.title }}</h2>
+      {{ content }}
+    <div>
     <div class="sub">
-      <h3>プロフィール:</h3>
+      <h3>プロフィール</h3>
       <p>ナプーです！</p>
       <p>sirokurokumasanのオリキャラです。</p>
       <p>プログラミング好きです！</p>
