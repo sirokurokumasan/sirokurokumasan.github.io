@@ -13,9 +13,8 @@ title: ブログの更新履歴
           {{ post.title }}  
           {{ page.date | date_to_string }}
           {{ post.excerpt }}
-          {{excerpt_separator}}
         </a>
-      <div><br><br>
+      </div><br><br>
     </li>
   {% endfor %}
 </ul>
