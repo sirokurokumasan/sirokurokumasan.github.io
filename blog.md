@@ -8,9 +8,11 @@ title: ブログの更新履歴
 <ul style="list-style: none;">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}" class="block">{{ post.title }}<br>
-      {{ page.date | date_to_string }}
-      {{ post.excerpt }}</a><br><br>
+      <a href="{{ post.url }}" class="block">
+        {{ post.title }}  
+        {{ page.date | date_to_string }}
+        {{ post.excerpt }}
+      </a><br><br>
     </li>
   {% endfor %}
 </ul>
