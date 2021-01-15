@@ -12,7 +12,6 @@ title: ブログの更新履歴
         <a href="{{ post.url }}">
           {{ post.title }}  
           {{ page.date | date_to_string }}
-          {{ post.excerpt }}
           {{excerpt_separator}}
         </a>
       <div><br><br>
