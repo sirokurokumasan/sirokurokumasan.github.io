@@ -38,8 +38,8 @@ body{
 }
 
 header {
-  background: #eef1d9;
-  border-bottom: solid 5px #000;
+  background: #e7e09c;
+  border-bottom: solid 2px #000;
 }
 
 footer {
@@ -94,8 +94,13 @@ footer {
 }
 //上のバー
 #gnav{
-  background-color: #dcdfcf;
+  background-color: #ddd9bc;
   & ul li{
     display: inline;
     }
+}
+
+.block{
+  border-top: solid 3px #000;
+  background: #ddd9bc;
 }
