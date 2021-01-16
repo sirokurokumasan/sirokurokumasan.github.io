@@ -13,7 +13,8 @@ a:hover{
 
 //このサイトではフッターにしかh1を使わない主義だったが、使いずらいのでh3にした
 h3{
-  display: inline;
+  inline-block: inline;
+  padding: 0.5em;
 }
 //タイトル
 h2 {
