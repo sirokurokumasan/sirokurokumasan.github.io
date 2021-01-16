@@ -13,7 +13,7 @@ a:hover{
 
 //このサイトではフッターにしかh1を使わない主義だったが、使いずらいのでh3にした
 h3{
-  inline-block: inline;
+  display: inline;
   padding: 0.5em;
 }
 //タイトル
@@ -27,7 +27,7 @@ h2 {
 //小見出し
 h1 {
   background: #e5ad6e;
-  padding: 0.5em;
+  padding: 0.5vm;
   font-size: 0.5vm;
 }
 
@@ -74,7 +74,7 @@ footer {
   width: 100%;
   top: 10px;
   margine: 10px;
-  border-top: solid 2px #000;
+  border: solid 2px #000;
 }
 
 //ボタン
