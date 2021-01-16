@@ -14,7 +14,7 @@ title: ナプーのブログ
 ↓これはScratchで作った時計です。時計があるとサイトの雰囲気が変わりますよね。
 <iframe src="https://turbowarp.org/434731718/embed?autoplay" allowtransparency="true" width="485" height="402"></iframe>
 
-# 大切なこと
+# お知らせ
 このサイトでは、「Googleアナリティクス」を使用しています。このデータは匿名で収集されており、個人を特定することはできません。
 また、データの収集のためにCookieを使用します。Cookieを無効にすることで収集を拒否することが出来ますので、ブラウザの設定をご確認ください。
 この規約に関しての詳細は
